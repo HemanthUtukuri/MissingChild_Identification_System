@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.mh-top{
+    background-image:url("https://i.ibb.co/Wf9hNGj/missing-child-topm1.png");
+    background-size:cover;
+    height:25vh;
+    padding:10px;
+    margin:10px;
+    border-radius:15px;
+    border-width:0px;
+   
+   
+}
+.hh-top{
+    color:black;
+    font-size:25px;
+    font-family:"Playfair-display";
+    padding:10px;
+
+    text-align:center;
+   
+}
+.buttomc{
+    background-color:#5B5B5B;
+    height:150vh;
+    padding:15px;
+}
+.dropdown{
+    padding:10px;
+   
+}
+.card1{
+    background-color: lightgrey;
+     border-radius:15px;
+}
+.undercard{
+    background-color: #5B5B5B;
+    padding:15px;
+   
+}
+.undercard1{
+    text-align: center;
+    background-color:white;
+    border-radius:20px;
+    border-color:lightgrey;
+    width:500px;
+    padding:15px;
+    margin:15px;
+    transition: all 0.3s;
+   
+   
+   
+}
+.undercardimg1{
+    height:350px;
+    width:450px;
+}
+.undercardtext{
+    font-family:"italic";
+    padding:5px;
+   
+}
+.undercardbutton{
+    font-family:"italic";
+   
+
+   
+    text-transform:uppercase;
+    display:inline-block;
+    text-align:center;
+    font-weight:bold;
+    padding:0.7em 2em;
+    border: 3px solid #4CE4C6;
+    border-radius:2px;
+    position:relative;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.1);
+    color:black;
+    text-decoration:none;
+    transition:0.3s ease all;
+    z-index:1;
+   
+   
+}
+.undercardbutton:before{
+    transition:0.5s all ease;
+    position:absolute;
+    top:0;
+    left:50%;
+    right:50%;
+    bottom:0;
+    opacity:0;
+    content:'';
+    background-color:#4CE4C6;
+    z-index:-1;
+   
+}
+.undercardbutton:hover,.undercardbutton:focus{
+    color:white;
+   
+}
+.undercardbutton:hover:before,.undercardbutton:focus:before{
+    transition: 0.5s all ease;
+    left:0;
+    right:0;
+    opacity:1;
+   
+}
+.undercardbutton:active{
+    transform: scale(0.9);
+}
+
+.undercard1:hover {
+    transform: scale(1.15);
+}
+
+.slidindcard{
+    background-color:#5B5B5B;
+    height:150vh;
+    padding:15px;
+}
+.slidingundercard1{
+    background-size:140vh;
+    border-radius:10px;
+}
+.textedit{
+    text-align: center;
+    background-color:white;
+}
+.footer {
+    background-color: #212529;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    margin-bottom: 15px;
+}
+
+.footer-links a {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.social-media {
+    margin-top: 15px;
+}
+
+.social-media .social-icon {
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-media .social-icon:hover {
+    color: #007bff;
+}

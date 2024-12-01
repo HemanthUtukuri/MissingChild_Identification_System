@@ -1,0 +1,335 @@
+.topcontainer {
+    color: #212529;
+    background-color: #ECECEC;
+    height: 32px;
+    width: 100%;
+    /* Ensure it spans the screen width */
+    font-family: roboto;
+    font-size: 16px;
+    display: flex;
+    padding-top: 0%;
+    padding-left: 2px;
+}
+
+#screenreaderacess {
+    height: 33px;
+    width: 166px;
+    color: #373739;
+    padding-top: 0px;
+    padding-left: 30px;
+}
+
+#map {
+    height: 33px;
+    width: 72.4px;
+    color: #373739;
+    padding-top: 0px;
+    padding-left: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Logo Section Styling */
+.logo {
+    display: flex;
+    margin-top: 10px;
+
+
+}
+
+#satyamevajayathe {
+    height: 106px;
+    width: 70px;
+    padding-left: 30px;
+
+}
+
+#child {
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+#satyamevajayathe:hover {
+
+    border: 2px solid black;
+
+}
+
+#heading {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: Roboto-bold;
+}
+
+.slide {
+    padding-left: 225px;
+}
+
+/* Navigation Bar Styling */
+.navbar {
+    background-color: #007BFF;
+    /* Blue theme */
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Optional: Adds shadow */
+}
+
+.nav-links {
+    list-style: none;
+    /* Remove bullet points */
+    display: flex;
+    /* Align links horizontally */
+    justify-content: space-around;
+    /* Evenly space the links */
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav-links a {
+    text-decoration: none;
+    /* Remove underline */
+    color: #FFFFFF;
+    /* White text color */
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #0056b3;
+    /* Darker blue on hover */
+}
+
+/* Key Information Section Styling */
+.key-information {
+    background-color: #f1f1f1;
+    padding: 40px 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.key-information h2 {
+    font-size: 24px;
+    color: #007bff;
+    /* Blue color for the header */
+    margin-bottom: 20px;
+}
+
+/* Cards for each information piece */
+.info-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.info-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.info-card h3 {
+    color: #007bff;
+    /* Blue color for subheadings */
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.info-card p {
+    font-size: 16px;
+    color: #555;
+}
+
+.contain {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+#capt {
+    width: 170px;
+    height: 72px;
+    font-size: 37px;
+    background-color: #2C31CF;
+    padding: 5px;
+    border: none;
+    letter-spacing: 1px;
+    float: left;
+    color: #E9E91D;
+    border-radius: 5px 0 0 5px;
+}
+
+#refresh {
+    float: left;
+    background-color: #2C31CF;
+    height: 82px;
+    border-radius: 0 5px 5px 0;
+}
+
+#refresh img {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#textinput {
+    width: 170px;
+    height: 70px;
+    font-size: 37px;
+    background-color: #252521;
+    border: none;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    color: #D58A1E;
+}
+
+.contain button {
+    padding: 8px 20px;
+    height: 35px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 25px;
+    background-color: #764D11;
+    color: #CED4F0;
+    transition: .5s;
+}
+
+.contain button:hover {
+    background-color: #976216;
+}
+
+.form {
+    background-color: #bab5b5;
+}
+
+/* Helpline Section Styles */
+.helpline-section {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 30px;
+}
+
+.helpline-section h2 {
+    color: #004a99;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.helpline-section p {
+    font-size: 18px;
+    color: #212529;
+    margin-bottom: 20px;
+}
+
+.helpline-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.helpline-item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: left;
+}
+
+.helpline-item h3 {
+    color: #007bff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.helpline-item p {
+    color: #333;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.helpline-item a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.helpline-item a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #212529;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    margin-bottom: 15px;
+}
+
+.footer-links a {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.social-media {
+    margin-top: 15px;
+}
+
+.social-media .social-icon {
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-media .social-icon:hover {
+    color: #007bff;
+}
