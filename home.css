@@ -24,7 +24,7 @@
 }
 .buttomc{
     background-color:#5B5B5B;
-    height:50vh;
+    height:150vh;
     padding:15px;
 }
 .dropdown{
@@ -115,60 +115,70 @@
     transform: scale(1.15);
 }
 
+/* Wrapper for the entire carousel */
 .slidingcard {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 20px auto;
-  max-width: 100%;
+  width: 100%;
+  max-width: 600px; /* Set max width for larger screens */
+  overflow: hidden; /* Prevents overflow from container */
 }
 
+/* Container for the images */
 .slidingundercard1 {
-  width: 500px; /* Adjust width of the carousel container */
-  height: 300px; /* Adjust height of the carousel container */
-  overflow: hidden; /* Ensure no overflow outside the container */
-  border-radius: 10px; /* Add rounded corners if needed */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for better visibility */
-  background-color: #f9f9f9; /* Optional background color */
+  width: 100%;
+  height: 350px; /* Set a fixed height */
+  position: relative;
+  overflow: hidden; /* Hides anything that goes outside the container */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  background-color: #fff; /* Background color */
 }
 
-.carousel-inner {
+/* Container for the image scroll */
+.image-scroll-container {
+  display: flex;
   width: 100%;
   height: 100%;
+  animation: scroll 15s linear infinite; /* Smooth scrolling animation */
 }
 
-.carousel-inner img {
+/* Styling for each image */
+.scroll-image {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Ensures images scale proportionally without distortion */
-  border-radius: 10px; /* Matches container rounding */
+  object-fit: cover; /* Ensures the image covers the container without distortion */
+  flex-shrink: 0; /* Prevents the images from shrinking */
+  border-radius: 15px; /* Match the rounded corners */
 }
 
-.carousel-control-prev,
-.carousel-control-next {
-  filter: invert(100%); /* Makes the controls visible on light backgrounds */
+/* Smooth scrolling animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(0); /* Start position */
+  }
+  100% {
+    transform: translateX(-100%); /* Move images to the left */
+  }
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  width: 30px; /* Adjust size of control icons */
-  height: 30px;
-}
-
-button:focus {
-  outline: none; /* Removes outline on button focus */
-}
-
+/* Responsiveness for smaller screens */
 @media screen and (max-width: 768px) {
-  .slidingundercard1 {
-    width: 90%; /* Make carousel responsive for smaller screens */
-    height: auto; /* Adjust height based on width */
+  .slidingcard {
+    max-width: 90%; /* Adjust the width on smaller screens */
   }
 
-  .carousel-inner img {
-    object-fit: contain; /* Adjust object-fit for smaller screens */
+  .slidingundercard1 {
+    height: 250px; /* Adjust height for smaller screens */
+  }
+
+  .scroll-image {
+    object-fit: contain; /* Make sure images fit without losing aspect ratio */
   }
 }
+
 
 .textedit{
     text-align: center;
